@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/rjd76/CLionProjects/236_Project1/Automaton.h
+Token.h
+C:/Users/rjd76/CLionProjects/236_Project1/Token.h
+
+C:/Users/rjd76/CLionProjects/236_Project1/Lexer.h
+vector
+-
+Automaton.h
+C:/Users/rjd76/CLionProjects/236_Project1/Automaton.h
+Token.h
+C:/Users/rjd76/CLionProjects/236_Project1/Token.h
+
+C:/Users/rjd76/CLionProjects/236_Project1/Token.h
+string
+-
+
+C:/Users/rjd76/CLionProjects/236_Project1/main.cpp
+Lexer.h
+C:/Users/rjd76/CLionProjects/236_Project1/Lexer.h
+fstream
+-
+iostream
+-
+string
+-
+
