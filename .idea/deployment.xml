@@ -8,8 +8,10 @@
             <mapping deploy="/Russell_Dupaix_Labs/project_1" local="$PROJECT_DIR$" />
           </mappings>
           <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug---local" />
             <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug-schizo" />
             <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug-schizo" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug---local" />
           </excludedPaths>
         </serverdata>
       </paths>

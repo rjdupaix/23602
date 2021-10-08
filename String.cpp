@@ -13,7 +13,6 @@ void String::S0(const std::string &input) {
 
 void String::S1(const std::string &input) {
 
-    //TODO: CORRECT THIS FUNCTION SO THAT IT WILL DEAL WITH THE END OF A FILE
     if (input[index] == '\n') { ++newLinesInToken; }
     if (index == static_cast<int>(input.size() - 1)) {
         this->type = TokenType::UNDEFINED;

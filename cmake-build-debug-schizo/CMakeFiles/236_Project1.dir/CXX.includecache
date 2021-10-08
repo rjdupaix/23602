@@ -6,119 +6,125 @@
 
 #IncludeRegexTransform: 
 
-/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/AddAutomaton.h
+/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/AddAutomaton.h
 Automaton.h
-/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Automaton.h
+/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Automaton.h
 
-/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Automaton.h
+/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Automaton.h
 Token.h
-/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Token.h
+/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Token.h
 
-/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/ColonAutomaton.h
+/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/ColonAutomaton.h
 Automaton.h
-/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Automaton.h
+/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Automaton.h
 
-/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/ColonDashAutomaton.h
+/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/ColonDashAutomaton.h
 Automaton.h
-/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Automaton.h
+/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Automaton.h
 
-/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/CommaAutomaton.h
+/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/CommaAutomaton.h
 Automaton.h
-/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Automaton.h
+/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Automaton.h
 
-/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Facts.h
+/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Facts.h
 Automaton.h
-/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Automaton.h
+/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Automaton.h
 
-/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/ID.h
+/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/ID.h
 Automaton.h
-/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Automaton.h
+/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Automaton.h
 
-/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Left_Paren.h
+/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Left_Paren.h
 Automaton.h
-/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Automaton.h
+/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Automaton.h
 
-/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Lexer.cpp
+/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Lexer.cpp
 Lexer.h
-/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Lexer.h
+/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Lexer.h
 ColonAutomaton.h
-/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/ColonAutomaton.h
+/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/ColonAutomaton.h
 ColonDashAutomaton.h
-/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/ColonDashAutomaton.h
+/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/ColonDashAutomaton.h
 CommaAutomaton.h
-/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/CommaAutomaton.h
+/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/CommaAutomaton.h
 AddAutomaton.h
-/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/AddAutomaton.h
+/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/AddAutomaton.h
 Facts.h
-/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Facts.h
+/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Facts.h
 ID.h
-/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/ID.h
+/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/ID.h
 Left_Paren.h
-/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Left_Paren.h
+/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Left_Paren.h
 Multiply.h
-/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Multiply.h
+/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Multiply.h
 Period.h
-/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Period.h
+/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Period.h
 Q_Mark.h
-/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Q_Mark.h
+/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Q_Mark.h
 Queries.h
-/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Queries.h
+/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Queries.h
 Right_Paren.h
-/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Right_Paren.h
+/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Right_Paren.h
 Rules.h
-/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Rules.h
+/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Rules.h
 Schemes.h
-/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Schemes.h
+/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Schemes.h
 String.h
-/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/String.h
+/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/String.h
 Single_Comment.h
-/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Single_Comment.h
+/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Single_Comment.h
+Multi_Comment.h
+/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Multi_Comment.h
 
-/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Lexer.h
+/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Lexer.h
 vector
 -
 Automaton.h
-/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Automaton.h
+/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Automaton.h
 Token.h
-/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Token.h
+/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Token.h
 
-/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Multiply.h
+/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Multi_Comment.h
 Automaton.h
-/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Automaton.h
+/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Automaton.h
 
-/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Period.h
+/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Multiply.h
 Automaton.h
-/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Automaton.h
+/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Automaton.h
 
-/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Q_Mark.h
+/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Period.h
 Automaton.h
-/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Automaton.h
+/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Automaton.h
 
-/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Queries.h
+/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Q_Mark.h
 Automaton.h
-/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Automaton.h
+/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Automaton.h
 
-/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Right_Paren.h
+/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Queries.h
 Automaton.h
-/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Automaton.h
+/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Automaton.h
 
-/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Rules.h
+/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Right_Paren.h
 Automaton.h
-/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Automaton.h
+/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Automaton.h
 
-/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Schemes.h
+/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Rules.h
 Automaton.h
-/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Automaton.h
+/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Automaton.h
 
-/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Single_Comment.h
+/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Schemes.h
 Automaton.h
-/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Automaton.h
+/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Automaton.h
 
-/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/String.h
+/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Single_Comment.h
 Automaton.h
-/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Automaton.h
+/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Automaton.h
 
-/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Token.h
+/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/String.h
+Automaton.h
+/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Automaton.h
+
+/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Token.h
 string
 -
 iostream

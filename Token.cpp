@@ -2,7 +2,7 @@
 
 Token::Token(TokenType type, std::string description, int line) : type(type), description(description), line(line) {}
 
-string Token::toString() {
+void Token::toString() {
     cout << "(";
     switch (this->type) {
         case TokenType::COLON:
@@ -61,4 +61,12 @@ string Token::toString() {
             break;
     }
     cout << ",\"" << description << "\"," << line << ")" << std::endl;
+}
+
+bool Token::match(TokenType t) {
+    return (t == this->type);
+}
+
+TokenType Token::getType() {
+    return this->type;
 }

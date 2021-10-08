@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1
+CMAKE_SOURCE_DIR = /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/cmake-build-debug-schizo
+CMAKE_BINARY_DIR = /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/cmake-build-debug-schizo
 
 # Include any dependencies generated for this target.
 include CMakeFiles/236_Project1.dir/depend.make
@@ -59,263 +59,315 @@ include CMakeFiles/236_Project1.dir/flags.make
 
 CMakeFiles/236_Project1.dir/main.cpp.o: CMakeFiles/236_Project1.dir/flags.make
 CMakeFiles/236_Project1.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/cmake-build-debug-schizo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/236_Project1.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/236_Project1.dir/main.cpp.o -c /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/cmake-build-debug-schizo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/236_Project1.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/236_Project1.dir/main.cpp.o -c /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/main.cpp
 
 CMakeFiles/236_Project1.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/236_Project1.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/main.cpp > CMakeFiles/236_Project1.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/main.cpp > CMakeFiles/236_Project1.dir/main.cpp.i
 
 CMakeFiles/236_Project1.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/236_Project1.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/main.cpp -o CMakeFiles/236_Project1.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/main.cpp -o CMakeFiles/236_Project1.dir/main.cpp.s
 
 CMakeFiles/236_Project1.dir/Lexer.cpp.o: CMakeFiles/236_Project1.dir/flags.make
 CMakeFiles/236_Project1.dir/Lexer.cpp.o: ../Lexer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/cmake-build-debug-schizo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/236_Project1.dir/Lexer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/236_Project1.dir/Lexer.cpp.o -c /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Lexer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/cmake-build-debug-schizo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/236_Project1.dir/Lexer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/236_Project1.dir/Lexer.cpp.o -c /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Lexer.cpp
 
 CMakeFiles/236_Project1.dir/Lexer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/236_Project1.dir/Lexer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Lexer.cpp > CMakeFiles/236_Project1.dir/Lexer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Lexer.cpp > CMakeFiles/236_Project1.dir/Lexer.cpp.i
 
 CMakeFiles/236_Project1.dir/Lexer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/236_Project1.dir/Lexer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Lexer.cpp -o CMakeFiles/236_Project1.dir/Lexer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Lexer.cpp -o CMakeFiles/236_Project1.dir/Lexer.cpp.s
 
 CMakeFiles/236_Project1.dir/AddAutomaton.cpp.o: CMakeFiles/236_Project1.dir/flags.make
 CMakeFiles/236_Project1.dir/AddAutomaton.cpp.o: ../AddAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/cmake-build-debug-schizo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/236_Project1.dir/AddAutomaton.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/236_Project1.dir/AddAutomaton.cpp.o -c /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/AddAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/cmake-build-debug-schizo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/236_Project1.dir/AddAutomaton.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/236_Project1.dir/AddAutomaton.cpp.o -c /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/AddAutomaton.cpp
 
 CMakeFiles/236_Project1.dir/AddAutomaton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/236_Project1.dir/AddAutomaton.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/AddAutomaton.cpp > CMakeFiles/236_Project1.dir/AddAutomaton.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/AddAutomaton.cpp > CMakeFiles/236_Project1.dir/AddAutomaton.cpp.i
 
 CMakeFiles/236_Project1.dir/AddAutomaton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/236_Project1.dir/AddAutomaton.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/AddAutomaton.cpp -o CMakeFiles/236_Project1.dir/AddAutomaton.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/AddAutomaton.cpp -o CMakeFiles/236_Project1.dir/AddAutomaton.cpp.s
 
 CMakeFiles/236_Project1.dir/ColonAutomaton.cpp.o: CMakeFiles/236_Project1.dir/flags.make
 CMakeFiles/236_Project1.dir/ColonAutomaton.cpp.o: ../ColonAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/cmake-build-debug-schizo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/236_Project1.dir/ColonAutomaton.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/236_Project1.dir/ColonAutomaton.cpp.o -c /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/ColonAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/cmake-build-debug-schizo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/236_Project1.dir/ColonAutomaton.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/236_Project1.dir/ColonAutomaton.cpp.o -c /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/ColonAutomaton.cpp
 
 CMakeFiles/236_Project1.dir/ColonAutomaton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/236_Project1.dir/ColonAutomaton.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/ColonAutomaton.cpp > CMakeFiles/236_Project1.dir/ColonAutomaton.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/ColonAutomaton.cpp > CMakeFiles/236_Project1.dir/ColonAutomaton.cpp.i
 
 CMakeFiles/236_Project1.dir/ColonAutomaton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/236_Project1.dir/ColonAutomaton.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/ColonAutomaton.cpp -o CMakeFiles/236_Project1.dir/ColonAutomaton.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/ColonAutomaton.cpp -o CMakeFiles/236_Project1.dir/ColonAutomaton.cpp.s
 
 CMakeFiles/236_Project1.dir/ColonDashAutomaton.cpp.o: CMakeFiles/236_Project1.dir/flags.make
 CMakeFiles/236_Project1.dir/ColonDashAutomaton.cpp.o: ../ColonDashAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/cmake-build-debug-schizo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/236_Project1.dir/ColonDashAutomaton.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/236_Project1.dir/ColonDashAutomaton.cpp.o -c /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/ColonDashAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/cmake-build-debug-schizo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/236_Project1.dir/ColonDashAutomaton.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/236_Project1.dir/ColonDashAutomaton.cpp.o -c /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/ColonDashAutomaton.cpp
 
 CMakeFiles/236_Project1.dir/ColonDashAutomaton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/236_Project1.dir/ColonDashAutomaton.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/ColonDashAutomaton.cpp > CMakeFiles/236_Project1.dir/ColonDashAutomaton.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/ColonDashAutomaton.cpp > CMakeFiles/236_Project1.dir/ColonDashAutomaton.cpp.i
 
 CMakeFiles/236_Project1.dir/ColonDashAutomaton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/236_Project1.dir/ColonDashAutomaton.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/ColonDashAutomaton.cpp -o CMakeFiles/236_Project1.dir/ColonDashAutomaton.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/ColonDashAutomaton.cpp -o CMakeFiles/236_Project1.dir/ColonDashAutomaton.cpp.s
 
 CMakeFiles/236_Project1.dir/CommaAutomaton.cpp.o: CMakeFiles/236_Project1.dir/flags.make
 CMakeFiles/236_Project1.dir/CommaAutomaton.cpp.o: ../CommaAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/cmake-build-debug-schizo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/236_Project1.dir/CommaAutomaton.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/236_Project1.dir/CommaAutomaton.cpp.o -c /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/CommaAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/cmake-build-debug-schizo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/236_Project1.dir/CommaAutomaton.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/236_Project1.dir/CommaAutomaton.cpp.o -c /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/CommaAutomaton.cpp
 
 CMakeFiles/236_Project1.dir/CommaAutomaton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/236_Project1.dir/CommaAutomaton.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/CommaAutomaton.cpp > CMakeFiles/236_Project1.dir/CommaAutomaton.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/CommaAutomaton.cpp > CMakeFiles/236_Project1.dir/CommaAutomaton.cpp.i
 
 CMakeFiles/236_Project1.dir/CommaAutomaton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/236_Project1.dir/CommaAutomaton.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/CommaAutomaton.cpp -o CMakeFiles/236_Project1.dir/CommaAutomaton.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/CommaAutomaton.cpp -o CMakeFiles/236_Project1.dir/CommaAutomaton.cpp.s
+
+CMakeFiles/236_Project1.dir/DatalogProgram.cpp.o: CMakeFiles/236_Project1.dir/flags.make
+CMakeFiles/236_Project1.dir/DatalogProgram.cpp.o: ../DatalogProgram.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/cmake-build-debug-schizo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/236_Project1.dir/DatalogProgram.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/236_Project1.dir/DatalogProgram.cpp.o -c /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/DatalogProgram.cpp
+
+CMakeFiles/236_Project1.dir/DatalogProgram.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/236_Project1.dir/DatalogProgram.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/DatalogProgram.cpp > CMakeFiles/236_Project1.dir/DatalogProgram.cpp.i
+
+CMakeFiles/236_Project1.dir/DatalogProgram.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/236_Project1.dir/DatalogProgram.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/DatalogProgram.cpp -o CMakeFiles/236_Project1.dir/DatalogProgram.cpp.s
 
 CMakeFiles/236_Project1.dir/Facts.cpp.o: CMakeFiles/236_Project1.dir/flags.make
 CMakeFiles/236_Project1.dir/Facts.cpp.o: ../Facts.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/cmake-build-debug-schizo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/236_Project1.dir/Facts.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/236_Project1.dir/Facts.cpp.o -c /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Facts.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/cmake-build-debug-schizo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/236_Project1.dir/Facts.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/236_Project1.dir/Facts.cpp.o -c /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Facts.cpp
 
 CMakeFiles/236_Project1.dir/Facts.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/236_Project1.dir/Facts.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Facts.cpp > CMakeFiles/236_Project1.dir/Facts.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Facts.cpp > CMakeFiles/236_Project1.dir/Facts.cpp.i
 
 CMakeFiles/236_Project1.dir/Facts.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/236_Project1.dir/Facts.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Facts.cpp -o CMakeFiles/236_Project1.dir/Facts.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Facts.cpp -o CMakeFiles/236_Project1.dir/Facts.cpp.s
 
 CMakeFiles/236_Project1.dir/ID.cpp.o: CMakeFiles/236_Project1.dir/flags.make
 CMakeFiles/236_Project1.dir/ID.cpp.o: ../ID.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/cmake-build-debug-schizo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/236_Project1.dir/ID.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/236_Project1.dir/ID.cpp.o -c /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/ID.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/cmake-build-debug-schizo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/236_Project1.dir/ID.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/236_Project1.dir/ID.cpp.o -c /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/ID.cpp
 
 CMakeFiles/236_Project1.dir/ID.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/236_Project1.dir/ID.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/ID.cpp > CMakeFiles/236_Project1.dir/ID.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/ID.cpp > CMakeFiles/236_Project1.dir/ID.cpp.i
 
 CMakeFiles/236_Project1.dir/ID.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/236_Project1.dir/ID.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/ID.cpp -o CMakeFiles/236_Project1.dir/ID.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/ID.cpp -o CMakeFiles/236_Project1.dir/ID.cpp.s
 
 CMakeFiles/236_Project1.dir/Left_Paren.cpp.o: CMakeFiles/236_Project1.dir/flags.make
 CMakeFiles/236_Project1.dir/Left_Paren.cpp.o: ../Left_Paren.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/cmake-build-debug-schizo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/236_Project1.dir/Left_Paren.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/236_Project1.dir/Left_Paren.cpp.o -c /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Left_Paren.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/cmake-build-debug-schizo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/236_Project1.dir/Left_Paren.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/236_Project1.dir/Left_Paren.cpp.o -c /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Left_Paren.cpp
 
 CMakeFiles/236_Project1.dir/Left_Paren.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/236_Project1.dir/Left_Paren.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Left_Paren.cpp > CMakeFiles/236_Project1.dir/Left_Paren.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Left_Paren.cpp > CMakeFiles/236_Project1.dir/Left_Paren.cpp.i
 
 CMakeFiles/236_Project1.dir/Left_Paren.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/236_Project1.dir/Left_Paren.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Left_Paren.cpp -o CMakeFiles/236_Project1.dir/Left_Paren.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Left_Paren.cpp -o CMakeFiles/236_Project1.dir/Left_Paren.cpp.s
 
 CMakeFiles/236_Project1.dir/Multiply.cpp.o: CMakeFiles/236_Project1.dir/flags.make
 CMakeFiles/236_Project1.dir/Multiply.cpp.o: ../Multiply.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/cmake-build-debug-schizo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/236_Project1.dir/Multiply.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/236_Project1.dir/Multiply.cpp.o -c /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Multiply.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/cmake-build-debug-schizo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/236_Project1.dir/Multiply.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/236_Project1.dir/Multiply.cpp.o -c /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Multiply.cpp
 
 CMakeFiles/236_Project1.dir/Multiply.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/236_Project1.dir/Multiply.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Multiply.cpp > CMakeFiles/236_Project1.dir/Multiply.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Multiply.cpp > CMakeFiles/236_Project1.dir/Multiply.cpp.i
 
 CMakeFiles/236_Project1.dir/Multiply.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/236_Project1.dir/Multiply.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Multiply.cpp -o CMakeFiles/236_Project1.dir/Multiply.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Multiply.cpp -o CMakeFiles/236_Project1.dir/Multiply.cpp.s
+
+CMakeFiles/236_Project1.dir/Parameter.cpp.o: CMakeFiles/236_Project1.dir/flags.make
+CMakeFiles/236_Project1.dir/Parameter.cpp.o: ../Parameter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/cmake-build-debug-schizo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/236_Project1.dir/Parameter.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/236_Project1.dir/Parameter.cpp.o -c /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Parameter.cpp
+
+CMakeFiles/236_Project1.dir/Parameter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/236_Project1.dir/Parameter.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Parameter.cpp > CMakeFiles/236_Project1.dir/Parameter.cpp.i
+
+CMakeFiles/236_Project1.dir/Parameter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/236_Project1.dir/Parameter.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Parameter.cpp -o CMakeFiles/236_Project1.dir/Parameter.cpp.s
+
+CMakeFiles/236_Project1.dir/Parser.cpp.o: CMakeFiles/236_Project1.dir/flags.make
+CMakeFiles/236_Project1.dir/Parser.cpp.o: ../Parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/cmake-build-debug-schizo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/236_Project1.dir/Parser.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/236_Project1.dir/Parser.cpp.o -c /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Parser.cpp
+
+CMakeFiles/236_Project1.dir/Parser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/236_Project1.dir/Parser.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Parser.cpp > CMakeFiles/236_Project1.dir/Parser.cpp.i
+
+CMakeFiles/236_Project1.dir/Parser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/236_Project1.dir/Parser.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Parser.cpp -o CMakeFiles/236_Project1.dir/Parser.cpp.s
 
 CMakeFiles/236_Project1.dir/Period.cpp.o: CMakeFiles/236_Project1.dir/flags.make
 CMakeFiles/236_Project1.dir/Period.cpp.o: ../Period.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/cmake-build-debug-schizo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/236_Project1.dir/Period.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/236_Project1.dir/Period.cpp.o -c /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Period.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/cmake-build-debug-schizo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/236_Project1.dir/Period.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/236_Project1.dir/Period.cpp.o -c /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Period.cpp
 
 CMakeFiles/236_Project1.dir/Period.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/236_Project1.dir/Period.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Period.cpp > CMakeFiles/236_Project1.dir/Period.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Period.cpp > CMakeFiles/236_Project1.dir/Period.cpp.i
 
 CMakeFiles/236_Project1.dir/Period.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/236_Project1.dir/Period.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Period.cpp -o CMakeFiles/236_Project1.dir/Period.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Period.cpp -o CMakeFiles/236_Project1.dir/Period.cpp.s
+
+CMakeFiles/236_Project1.dir/Predicate.cpp.o: CMakeFiles/236_Project1.dir/flags.make
+CMakeFiles/236_Project1.dir/Predicate.cpp.o: ../Predicate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/cmake-build-debug-schizo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/236_Project1.dir/Predicate.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/236_Project1.dir/Predicate.cpp.o -c /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Predicate.cpp
+
+CMakeFiles/236_Project1.dir/Predicate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/236_Project1.dir/Predicate.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Predicate.cpp > CMakeFiles/236_Project1.dir/Predicate.cpp.i
+
+CMakeFiles/236_Project1.dir/Predicate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/236_Project1.dir/Predicate.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Predicate.cpp -o CMakeFiles/236_Project1.dir/Predicate.cpp.s
 
 CMakeFiles/236_Project1.dir/Q_Mark.cpp.o: CMakeFiles/236_Project1.dir/flags.make
 CMakeFiles/236_Project1.dir/Q_Mark.cpp.o: ../Q_Mark.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/cmake-build-debug-schizo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/236_Project1.dir/Q_Mark.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/236_Project1.dir/Q_Mark.cpp.o -c /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Q_Mark.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/cmake-build-debug-schizo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/236_Project1.dir/Q_Mark.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/236_Project1.dir/Q_Mark.cpp.o -c /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Q_Mark.cpp
 
 CMakeFiles/236_Project1.dir/Q_Mark.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/236_Project1.dir/Q_Mark.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Q_Mark.cpp > CMakeFiles/236_Project1.dir/Q_Mark.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Q_Mark.cpp > CMakeFiles/236_Project1.dir/Q_Mark.cpp.i
 
 CMakeFiles/236_Project1.dir/Q_Mark.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/236_Project1.dir/Q_Mark.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Q_Mark.cpp -o CMakeFiles/236_Project1.dir/Q_Mark.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Q_Mark.cpp -o CMakeFiles/236_Project1.dir/Q_Mark.cpp.s
 
 CMakeFiles/236_Project1.dir/Queries.cpp.o: CMakeFiles/236_Project1.dir/flags.make
 CMakeFiles/236_Project1.dir/Queries.cpp.o: ../Queries.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/cmake-build-debug-schizo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/236_Project1.dir/Queries.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/236_Project1.dir/Queries.cpp.o -c /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Queries.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/cmake-build-debug-schizo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/236_Project1.dir/Queries.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/236_Project1.dir/Queries.cpp.o -c /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Queries.cpp
 
 CMakeFiles/236_Project1.dir/Queries.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/236_Project1.dir/Queries.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Queries.cpp > CMakeFiles/236_Project1.dir/Queries.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Queries.cpp > CMakeFiles/236_Project1.dir/Queries.cpp.i
 
 CMakeFiles/236_Project1.dir/Queries.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/236_Project1.dir/Queries.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Queries.cpp -o CMakeFiles/236_Project1.dir/Queries.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Queries.cpp -o CMakeFiles/236_Project1.dir/Queries.cpp.s
 
 CMakeFiles/236_Project1.dir/Right_Paren.cpp.o: CMakeFiles/236_Project1.dir/flags.make
 CMakeFiles/236_Project1.dir/Right_Paren.cpp.o: ../Right_Paren.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/cmake-build-debug-schizo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/236_Project1.dir/Right_Paren.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/236_Project1.dir/Right_Paren.cpp.o -c /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Right_Paren.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/cmake-build-debug-schizo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/236_Project1.dir/Right_Paren.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/236_Project1.dir/Right_Paren.cpp.o -c /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Right_Paren.cpp
 
 CMakeFiles/236_Project1.dir/Right_Paren.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/236_Project1.dir/Right_Paren.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Right_Paren.cpp > CMakeFiles/236_Project1.dir/Right_Paren.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Right_Paren.cpp > CMakeFiles/236_Project1.dir/Right_Paren.cpp.i
 
 CMakeFiles/236_Project1.dir/Right_Paren.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/236_Project1.dir/Right_Paren.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Right_Paren.cpp -o CMakeFiles/236_Project1.dir/Right_Paren.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Right_Paren.cpp -o CMakeFiles/236_Project1.dir/Right_Paren.cpp.s
 
 CMakeFiles/236_Project1.dir/Rules.cpp.o: CMakeFiles/236_Project1.dir/flags.make
 CMakeFiles/236_Project1.dir/Rules.cpp.o: ../Rules.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/cmake-build-debug-schizo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/236_Project1.dir/Rules.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/236_Project1.dir/Rules.cpp.o -c /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Rules.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/cmake-build-debug-schizo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/236_Project1.dir/Rules.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/236_Project1.dir/Rules.cpp.o -c /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Rules.cpp
 
 CMakeFiles/236_Project1.dir/Rules.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/236_Project1.dir/Rules.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Rules.cpp > CMakeFiles/236_Project1.dir/Rules.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Rules.cpp > CMakeFiles/236_Project1.dir/Rules.cpp.i
 
 CMakeFiles/236_Project1.dir/Rules.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/236_Project1.dir/Rules.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Rules.cpp -o CMakeFiles/236_Project1.dir/Rules.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Rules.cpp -o CMakeFiles/236_Project1.dir/Rules.cpp.s
 
 CMakeFiles/236_Project1.dir/Schemes.cpp.o: CMakeFiles/236_Project1.dir/flags.make
 CMakeFiles/236_Project1.dir/Schemes.cpp.o: ../Schemes.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/cmake-build-debug-schizo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/236_Project1.dir/Schemes.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/236_Project1.dir/Schemes.cpp.o -c /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Schemes.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/cmake-build-debug-schizo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/236_Project1.dir/Schemes.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/236_Project1.dir/Schemes.cpp.o -c /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Schemes.cpp
 
 CMakeFiles/236_Project1.dir/Schemes.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/236_Project1.dir/Schemes.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Schemes.cpp > CMakeFiles/236_Project1.dir/Schemes.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Schemes.cpp > CMakeFiles/236_Project1.dir/Schemes.cpp.i
 
 CMakeFiles/236_Project1.dir/Schemes.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/236_Project1.dir/Schemes.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Schemes.cpp -o CMakeFiles/236_Project1.dir/Schemes.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Schemes.cpp -o CMakeFiles/236_Project1.dir/Schemes.cpp.s
 
 CMakeFiles/236_Project1.dir/String.cpp.o: CMakeFiles/236_Project1.dir/flags.make
 CMakeFiles/236_Project1.dir/String.cpp.o: ../String.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/cmake-build-debug-schizo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/236_Project1.dir/String.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/236_Project1.dir/String.cpp.o -c /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/String.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/cmake-build-debug-schizo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/236_Project1.dir/String.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/236_Project1.dir/String.cpp.o -c /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/String.cpp
 
 CMakeFiles/236_Project1.dir/String.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/236_Project1.dir/String.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/String.cpp > CMakeFiles/236_Project1.dir/String.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/String.cpp > CMakeFiles/236_Project1.dir/String.cpp.i
 
 CMakeFiles/236_Project1.dir/String.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/236_Project1.dir/String.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/String.cpp -o CMakeFiles/236_Project1.dir/String.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/String.cpp -o CMakeFiles/236_Project1.dir/String.cpp.s
 
 CMakeFiles/236_Project1.dir/Single_Comment.cpp.o: CMakeFiles/236_Project1.dir/flags.make
 CMakeFiles/236_Project1.dir/Single_Comment.cpp.o: ../Single_Comment.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/cmake-build-debug-schizo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/236_Project1.dir/Single_Comment.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/236_Project1.dir/Single_Comment.cpp.o -c /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Single_Comment.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/cmake-build-debug-schizo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/236_Project1.dir/Single_Comment.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/236_Project1.dir/Single_Comment.cpp.o -c /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Single_Comment.cpp
 
 CMakeFiles/236_Project1.dir/Single_Comment.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/236_Project1.dir/Single_Comment.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Single_Comment.cpp > CMakeFiles/236_Project1.dir/Single_Comment.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Single_Comment.cpp > CMakeFiles/236_Project1.dir/Single_Comment.cpp.i
 
 CMakeFiles/236_Project1.dir/Single_Comment.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/236_Project1.dir/Single_Comment.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Single_Comment.cpp -o CMakeFiles/236_Project1.dir/Single_Comment.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Single_Comment.cpp -o CMakeFiles/236_Project1.dir/Single_Comment.cpp.s
 
 CMakeFiles/236_Project1.dir/Multi_Comment.cpp.o: CMakeFiles/236_Project1.dir/flags.make
 CMakeFiles/236_Project1.dir/Multi_Comment.cpp.o: ../Multi_Comment.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/cmake-build-debug-schizo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/236_Project1.dir/Multi_Comment.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/236_Project1.dir/Multi_Comment.cpp.o -c /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Multi_Comment.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/cmake-build-debug-schizo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/236_Project1.dir/Multi_Comment.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/236_Project1.dir/Multi_Comment.cpp.o -c /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Multi_Comment.cpp
 
 CMakeFiles/236_Project1.dir/Multi_Comment.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/236_Project1.dir/Multi_Comment.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Multi_Comment.cpp > CMakeFiles/236_Project1.dir/Multi_Comment.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Multi_Comment.cpp > CMakeFiles/236_Project1.dir/Multi_Comment.cpp.i
 
 CMakeFiles/236_Project1.dir/Multi_Comment.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/236_Project1.dir/Multi_Comment.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Multi_Comment.cpp -o CMakeFiles/236_Project1.dir/Multi_Comment.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Multi_Comment.cpp -o CMakeFiles/236_Project1.dir/Multi_Comment.cpp.s
 
 CMakeFiles/236_Project1.dir/Token.cpp.o: CMakeFiles/236_Project1.dir/flags.make
 CMakeFiles/236_Project1.dir/Token.cpp.o: ../Token.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/cmake-build-debug-schizo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/236_Project1.dir/Token.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/236_Project1.dir/Token.cpp.o -c /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Token.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/cmake-build-debug-schizo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/236_Project1.dir/Token.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/236_Project1.dir/Token.cpp.o -c /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Token.cpp
 
 CMakeFiles/236_Project1.dir/Token.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/236_Project1.dir/Token.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Token.cpp > CMakeFiles/236_Project1.dir/Token.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Token.cpp > CMakeFiles/236_Project1.dir/Token.cpp.i
 
 CMakeFiles/236_Project1.dir/Token.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/236_Project1.dir/Token.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/Token.cpp -o CMakeFiles/236_Project1.dir/Token.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/Token.cpp -o CMakeFiles/236_Project1.dir/Token.cpp.s
 
 # Object files for target 236_Project1
 236_Project1_OBJECTS = \
@@ -325,11 +377,15 @@ CMakeFiles/236_Project1.dir/Token.cpp.s: cmake_force
 "CMakeFiles/236_Project1.dir/ColonAutomaton.cpp.o" \
 "CMakeFiles/236_Project1.dir/ColonDashAutomaton.cpp.o" \
 "CMakeFiles/236_Project1.dir/CommaAutomaton.cpp.o" \
+"CMakeFiles/236_Project1.dir/DatalogProgram.cpp.o" \
 "CMakeFiles/236_Project1.dir/Facts.cpp.o" \
 "CMakeFiles/236_Project1.dir/ID.cpp.o" \
 "CMakeFiles/236_Project1.dir/Left_Paren.cpp.o" \
 "CMakeFiles/236_Project1.dir/Multiply.cpp.o" \
+"CMakeFiles/236_Project1.dir/Parameter.cpp.o" \
+"CMakeFiles/236_Project1.dir/Parser.cpp.o" \
 "CMakeFiles/236_Project1.dir/Period.cpp.o" \
+"CMakeFiles/236_Project1.dir/Predicate.cpp.o" \
 "CMakeFiles/236_Project1.dir/Q_Mark.cpp.o" \
 "CMakeFiles/236_Project1.dir/Queries.cpp.o" \
 "CMakeFiles/236_Project1.dir/Right_Paren.cpp.o" \
@@ -349,11 +405,15 @@ CMakeFiles/236_Project1.dir/Token.cpp.s: cmake_force
 236_Project1: CMakeFiles/236_Project1.dir/ColonAutomaton.cpp.o
 236_Project1: CMakeFiles/236_Project1.dir/ColonDashAutomaton.cpp.o
 236_Project1: CMakeFiles/236_Project1.dir/CommaAutomaton.cpp.o
+236_Project1: CMakeFiles/236_Project1.dir/DatalogProgram.cpp.o
 236_Project1: CMakeFiles/236_Project1.dir/Facts.cpp.o
 236_Project1: CMakeFiles/236_Project1.dir/ID.cpp.o
 236_Project1: CMakeFiles/236_Project1.dir/Left_Paren.cpp.o
 236_Project1: CMakeFiles/236_Project1.dir/Multiply.cpp.o
+236_Project1: CMakeFiles/236_Project1.dir/Parameter.cpp.o
+236_Project1: CMakeFiles/236_Project1.dir/Parser.cpp.o
 236_Project1: CMakeFiles/236_Project1.dir/Period.cpp.o
+236_Project1: CMakeFiles/236_Project1.dir/Predicate.cpp.o
 236_Project1: CMakeFiles/236_Project1.dir/Q_Mark.cpp.o
 236_Project1: CMakeFiles/236_Project1.dir/Queries.cpp.o
 236_Project1: CMakeFiles/236_Project1.dir/Right_Paren.cpp.o
@@ -365,7 +425,7 @@ CMakeFiles/236_Project1.dir/Token.cpp.s: cmake_force
 236_Project1: CMakeFiles/236_Project1.dir/Token.cpp.o
 236_Project1: CMakeFiles/236_Project1.dir/build.make
 236_Project1: CMakeFiles/236_Project1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/cmake-build-debug-schizo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX executable 236_Project1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/cmake-build-debug-schizo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX executable 236_Project1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/236_Project1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -378,6 +438,6 @@ CMakeFiles/236_Project1.dir/clean:
 .PHONY : CMakeFiles/236_Project1.dir/clean
 
 CMakeFiles/236_Project1.dir/depend:
-	cd /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/cmake-build-debug-schizo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1 /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1 /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/cmake-build-debug-schizo /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/cmake-build-debug-schizo /users/guest/r/rjd58/Russell_Dupaix_Labs/project_1/cmake-build-debug-schizo/CMakeFiles/236_Project1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/cmake-build-debug-schizo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1 /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1 /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/cmake-build-debug-schizo /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/cmake-build-debug-schizo /users/guest/r/rjd58/project1/Russell_Dupaix_Labs/project_1/cmake-build-debug-schizo/CMakeFiles/236_Project1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/236_Project1.dir/depend
 

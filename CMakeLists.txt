@@ -15,6 +15,8 @@ add_executable(236_Project1 main.cpp
         ColonDashAutomaton.h
         CommaAutomaton.cpp
         CommaAutomaton.h
+        DatalogProgram.cpp
+        DatalogProgram.h
         Facts.cpp
         Facts.h
         ID.cpp
@@ -23,8 +25,14 @@ add_executable(236_Project1 main.cpp
         Left_Paren.h
         Multiply.cpp
         Multiply.h
+        Parameter.cpp
+        Parameter.h
+        Parser.cpp
+        Parser.h
         Period.cpp
         Period.h
+        Predicate.cpp
+        Predicate.h
         Q_Mark.cpp
         Q_Mark.h
         Queries.cpp

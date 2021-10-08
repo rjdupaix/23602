@@ -12,6 +12,10 @@ void Multi_Comment::S0(const std::string &input) {
 }
 
 void Multi_Comment::S1(const std::string &input) {
+    if (index >= static_cast<int>(input.size())) {
+        this->type = TokenType::UNDEFINED;
+        return;
+    }
     if (input[index] == '|') {
         inputRead++;
         index++;
@@ -26,15 +30,19 @@ void Multi_Comment::S2(const std::string &input) {
     if (input[index] == '\n') {
         newLinesInToken++;
     }
-    if (input[index] != '|') {
-        inputRead++;
-        index++;
-        S2(input);
+    if (index >= static_cast<int>(input.size())) {
+        this->type = TokenType::UNDEFINED;
+        return;
     }
-    else if (input[index] == '|') {
+    if (input[index] == '|') {
         inputRead++;
         index++;
         S3(input);
+    }
+    else if (input[index] != '|') {
+        inputRead++;
+        index++;
+        S2(input);
     }
     else {
         Serr();
@@ -42,6 +50,13 @@ void Multi_Comment::S2(const std::string &input) {
 }
 
 void Multi_Comment::S3(const std::string &input) {
+    if (input[index] == '\n') {
+        newLinesInToken++;
+    }
+    if (index >= static_cast<int>(input.size())) {
+        this->type = TokenType::UNDEFINED;
+        return;
+    }
     if (input[index] == '#') {
         inputRead++;
     }

@@ -3,6 +3,7 @@
 #include <vector>
 #include "Automaton.h"
 #include "Token.h"
+#include "Parser.h"
 
 class Lexer
 {
@@ -11,7 +12,6 @@ private:
     std::vector<Token*>* tokens;
 
     void CreateAutomata();
-    // TODO: add any other private methods here (if needed)
 
 public:
     Lexer()
@@ -23,10 +23,10 @@ public:
     ~Lexer();
 
     void Run(std::string& input);
-    
-    // TODO: add other public methods here
+
+    std::vector<Token*>* ReturnTokens();
 
 };
 
-#endif // LEXER_H
+#endif
 

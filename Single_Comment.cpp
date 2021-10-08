@@ -1,9 +1,7 @@
 #include "Single_Comment.h"
 
-//Single_Comment::Single_Comment() : Automaton(TokenType::COMMENT) {}
-
 void Single_Comment::S0(const std::string &input) {
-    if (input[index] == '#') {
+    if (input[index] == '#' && input[index + 1] != '|') {
         inputRead++;
         index++;
         S1(input);
@@ -14,7 +12,10 @@ void Single_Comment::S0(const std::string &input) {
 }
 
 void Single_Comment::S1(const std::string &input) {
-    if (index >= static_cast<int>(input.size())) { return; }
+    if (index >= static_cast<int>(input.size())) {
+        this->type = TokenType::UNDEFINED;
+        return;
+    }
     if (input[index] != '\n') {
         inputRead++;
         index++;

@@ -1,7 +1,5 @@
 #include "Lexer.h"
 #include <fstream>
-#include <iostream>
-#include <string>
 
 using std::ifstream;
 using std::ofstream;
@@ -16,28 +14,39 @@ int main(int argc, char** argv) {
         cerr << "Please provide name of input file";
         return 1;
     }
-    cout << "Input file: " << argv[1] << endl;
     ifstream in(argv[1]);
     if (!in) {
         cerr << "Unable to open " << argv[1] << " for input";
         return 2;
     }
+    char c = '\0';
+    string line = "";
 
-    string line;
-    char c;
     while (true) {
         in.get(c);
-        line.push_back(c);
+        if (c == '\0') { break; }
+        line += c;
+        //line.push_back(c);
         if (in.peek() == EOF) { break; }
     }
 
     Lexer* lexer = new Lexer();
 
-    //cout << line << endl;
-    // TODO
     lexer->Run(line);
 
-    //delete lexer;
+    Parser t(lexer->ReturnTokens());
+    try {
+        t.Parse();
+        cout << endl << "Success!" << endl;
+    }
+    catch (Token* error) {
+        cout << endl << "Failure!  " << endl;
+        error->toString();
+    }
+
+
+
+    delete lexer;
 
     return 0;
 }

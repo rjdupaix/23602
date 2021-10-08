@@ -46,6 +46,7 @@ CMakeFiles/236_Project1.dir/Lexer.cpp.o: ../ID.h
 CMakeFiles/236_Project1.dir/Lexer.cpp.o: ../Left_Paren.h
 CMakeFiles/236_Project1.dir/Lexer.cpp.o: ../Lexer.cpp
 CMakeFiles/236_Project1.dir/Lexer.cpp.o: ../Lexer.h
+CMakeFiles/236_Project1.dir/Lexer.cpp.o: ../Multi_Comment.h
 CMakeFiles/236_Project1.dir/Lexer.cpp.o: ../Multiply.h
 CMakeFiles/236_Project1.dir/Lexer.cpp.o: ../Period.h
 CMakeFiles/236_Project1.dir/Lexer.cpp.o: ../Q_Mark.h
@@ -56,6 +57,11 @@ CMakeFiles/236_Project1.dir/Lexer.cpp.o: ../Schemes.h
 CMakeFiles/236_Project1.dir/Lexer.cpp.o: ../Single_Comment.h
 CMakeFiles/236_Project1.dir/Lexer.cpp.o: ../String.h
 CMakeFiles/236_Project1.dir/Lexer.cpp.o: ../Token.h
+
+CMakeFiles/236_Project1.dir/Multi_Comment.cpp.o: ../Automaton.h
+CMakeFiles/236_Project1.dir/Multi_Comment.cpp.o: ../Multi_Comment.cpp
+CMakeFiles/236_Project1.dir/Multi_Comment.cpp.o: ../Multi_Comment.h
+CMakeFiles/236_Project1.dir/Multi_Comment.cpp.o: ../Token.h
 
 CMakeFiles/236_Project1.dir/Multiply.cpp.o: ../Automaton.h
 CMakeFiles/236_Project1.dir/Multiply.cpp.o: ../Multiply.cpp
@@ -91,6 +97,11 @@ CMakeFiles/236_Project1.dir/Schemes.cpp.o: ../Automaton.h
 CMakeFiles/236_Project1.dir/Schemes.cpp.o: ../Schemes.cpp
 CMakeFiles/236_Project1.dir/Schemes.cpp.o: ../Schemes.h
 CMakeFiles/236_Project1.dir/Schemes.cpp.o: ../Token.h
+
+CMakeFiles/236_Project1.dir/Single_Comment.cpp.o: ../Automaton.h
+CMakeFiles/236_Project1.dir/Single_Comment.cpp.o: ../Single_Comment.cpp
+CMakeFiles/236_Project1.dir/Single_Comment.cpp.o: ../Single_Comment.h
+CMakeFiles/236_Project1.dir/Single_Comment.cpp.o: ../Token.h
 
 CMakeFiles/236_Project1.dir/String.cpp.o: ../Automaton.h
 CMakeFiles/236_Project1.dir/String.cpp.o: ../String.cpp

@@ -30,16 +30,15 @@ enum class TokenType {
 class Token
 {
 private:
-    // TODO: add member variables for information needed by Token
     TokenType type;
     string description;
     int line;
 
 public:
     Token(TokenType type, string description, int line);
-    string toString();
-
-    // TODO: add other needed methods
+    void toString();
+    bool match(TokenType t);
+    TokenType getType();
 };
 
 #endif // TOKEN_H
